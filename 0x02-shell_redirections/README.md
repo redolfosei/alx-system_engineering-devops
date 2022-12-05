@@ -60,3 +60,6 @@ tr A Z | tr c e
 
 [Create a script that removes all letters c and C from input]
 tr -d C | tr -d c
+
+[Write a script that reverse its input]
+rev
