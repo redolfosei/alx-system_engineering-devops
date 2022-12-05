@@ -39,3 +39,6 @@ ls -t | head -10
 
 [Create a script that takes a list of words as input and prints only words that appear exactly once]
 sort | uniq -u
+
+[Display lines containing the pattern “root” from the file /etc/passwd]
+grep root /etc/passwd
