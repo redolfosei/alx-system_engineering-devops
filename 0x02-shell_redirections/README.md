@@ -66,3 +66,6 @@ rev
 
 [Write a script that displays all users and their home directories, sorted by users]
 cut -d : -f 1,6 /etc/passwd | sort
+
+[Write a command that finds all empty files and directories in the current directory and all sub-directories]
+find . -empty -printf "%f\n"
