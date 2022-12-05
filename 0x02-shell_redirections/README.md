@@ -63,3 +63,6 @@ tr -d C | tr -d c
 
 [Write a script that reverse its input]
 rev
+
+[Write a script that displays all users and their home directories, sorted by users]
+cut -d : -f 1,6 /etc/passwd | sort
