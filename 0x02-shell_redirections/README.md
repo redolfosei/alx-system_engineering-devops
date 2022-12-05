@@ -54,3 +54,6 @@ grep -v bin /etc/passwd
 
 [Display all lines of the file /etc/ssh/sshd_config starting with a letter.]
 grep '^[[:alpha:]]' /etc/ssh/sshd_config
+
+[Replace all characters A and c from input to Z and e respectively]
+tr A Z | tr c e
