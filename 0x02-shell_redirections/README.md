@@ -57,3 +57,6 @@ grep '^[[:alpha:]]' /etc/ssh/sshd_config
 
 [Replace all characters A and c from input to Z and e respectively]
 tr A Z | tr c e
+
+[Create a script that removes all letters c and C from input]
+tr -d C | tr -d c
