@@ -36,3 +36,6 @@ find -mindepth 1 -type d | wc -l
 
 [Create a script that displays the 10 newest files in the current directory.]
 ls -t | head -10
+
+[Create a script that takes a list of words as input and prints only words that appear exactly once]
+sort | uniq -u
