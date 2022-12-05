@@ -69,3 +69,6 @@ cut -d : -f 1,6 /etc/passwd | sort
 
 [Write a command that finds all empty files and directories in the current directory and all sub-directories]
 find . -empty -printf "%f\n"
+
+[Write a script that lists all the files with a .gif extension in the current directory and all its sub-directories]
+find . -name "\*.gif" -type f -printf "%f\n" | rev |cut -d. -f2- | rev | LC_ALL=C sort -f
