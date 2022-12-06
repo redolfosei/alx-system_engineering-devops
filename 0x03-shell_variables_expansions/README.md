@@ -35,3 +35,5 @@ echo $((2#$BINARY))
 
 [Create a script that prints all possible combinations of two letters, except oo]
 printf "%s\n" {a..z}{a..z} | grep -v "oo"
+
+[Write a script that prints a number with two decimal places, followed by a new line, The number will be stored in the environment variable NUM]
