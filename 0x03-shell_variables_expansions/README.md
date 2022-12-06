@@ -11,3 +11,6 @@ echo $PATH | tr -s ":" "\n" | wc -l
 
 [Create a script that lists environment variables.]
 printenv
+
+[Create a script that lists all local variables and environment variables, and functions]
+set
