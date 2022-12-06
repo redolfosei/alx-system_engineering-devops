@@ -15,4 +15,8 @@ printenv
 [Create a script that lists all local variables and environment variables, and functions]
 set
 
-[Create a script that creates a new local variable.]
+[Create a script that creates a new local variable with name BEST and value School]
+BEST="School"
+
+[Create a script that creates a new global variable with name BEST and value School]
+export BEST="School"
