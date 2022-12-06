@@ -8,3 +8,6 @@ echo "hello" $USER
 
 [Create a script that counts the number of directories in the PATH]
 echo $PATH | tr -s ":" "\n" | wc -l
+
+[Create a script that lists environment variables.]
+printenv
