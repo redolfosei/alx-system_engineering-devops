@@ -40,3 +40,10 @@ printf "%s\n" {a..z}{a..z} | grep -v "oo"
 printf "%0.2f\n" $NUM
 
 [Write a script that converts a number from base 10 to base 16.]
+printf '%x\n' $DECIMAL
+
+[Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII]
+tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
+
+[Write a script that prints every other line from the input, starting with the first line]
+paste - - | cut -f 1
