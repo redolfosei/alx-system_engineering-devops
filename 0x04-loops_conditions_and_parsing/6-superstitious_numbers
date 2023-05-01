@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This displays 1-20 but "bad luck from China" at 4th and "bad luck from Japan"
+# at 7th and "bad luck from Italy" at 17th
+
+a=1
+while [ "$a" -le 20 ]
+do
+	echo "$a"
+    case $a in
+	4) echo "bad luck from China" ;;
+	9) echo "bad luck from Japan" ;;
+	17) echo "bad luck from Italy" ;;
+    esac
+    (( a++ ))
+done
